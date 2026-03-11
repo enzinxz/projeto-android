@@ -26,13 +26,6 @@
   padding: 0px;
 }
 
-html{
-scroll-behavior:smooth;
-}
-
-section{
-height:50px;
-}
 
 body {
   background-color: var(--cor0);
@@ -43,14 +36,15 @@ a.externo::after {
   content: "\00A0\1F517";
 }
 
-header > section {
+header {
   background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
   min-height: 150px;
   text-align: center;
   padding-top: 30px;
+  height: 200px;
 }
 
-header > section > h1 {
+header >h1 {
   color: white;
   font-family: var(--fonte-destaque);
   font-size: 3em;
@@ -59,13 +53,13 @@ header > section > h1 {
   font-weight: normal;
 }
 
-header > section > p {
+header > p {
   font-family: var(--fonte-padrao);
   font-size: 1.2em;
   color: white;
   max-width: 500px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
   margin: auto;
   text-shadow: 2px 2px 3px black;
   margin-bottom: 30px;
